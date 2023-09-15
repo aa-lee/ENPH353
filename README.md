@@ -26,3 +26,4 @@ git status <!-- Tells you what files are in add + commit + differences? -->
 
 At this point, you should make a repository on GitHub and copy down the URL. 
 
+git push --force URL <!-- This pushed git to the URL and overwrote everything -->
