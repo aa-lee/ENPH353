@@ -1,11 +1,28 @@
 "HOW TO USE GIT"
 
-1. Make a folder
-cd <to wherever you want>
+<!-- Make a folder -->
+cd WHEREVER_YOU_WANT
 mkdir "NAME_OF_FOLDER"
+rmdir "NAME_OF_FOLDER" 
 
-2. Go into folder
-cd <where you were /NAME_OF_FOLDER>
+<!-- Go into folder -->
+cd where_you_were/NAME_OF_FOLDER
 
-3. Put/write code files inside the folder
-echo "Text"
+<!-- Put/write code files inside the folder -->
+echo "Text" > text.txt
+del text.txt
+
+<!-- Initialize Git -->
+git init
+
+<!-- Add stuff to be committed -->
+git add
+git add . <!-- Adds everything in your current directory-->
+git rm --cached <file_name> <!-- Removes files from the "to be added pile" -->
+
+git status <!-- Tells you what files are in add + commit + differences? -->
+
+<!-- Make a repo on GitHub from your computer terminal (is this possible?) -->
+
+At this point, you should make a repository on GitHub and copy down the URL. 
+
